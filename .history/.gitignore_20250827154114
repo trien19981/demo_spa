@@ -1,0 +1,43 @@
+# Node & package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Nuxt/Nitro
+.nuxt/
+.output/
+.nitro/
+.cache/
+
+# Build artifacts & coverage
+dist/
+coverage/
+*.log
+logs/
+*.tgz
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# Deployment/platform
+.vercel/
+.netlify/
+
+# Temporary files
+.tmp/
+tmp/
+temp/
+
