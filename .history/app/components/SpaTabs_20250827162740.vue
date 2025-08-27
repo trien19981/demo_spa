@@ -64,6 +64,8 @@ onBeforeUnmount(() => {
 <template>
   <div class="min-h-screen bg-white">
     <div class="max-w-6xl mx-auto px-4 py-6">
+      <h1 class="text-4xl font-extrabold mb-8">Sample SPA Design</h1>
+
       <div class="border border-gray-300 rounded-md overflow-hidden">
         <div class="flex">
           <!-- Left nav (vertical tabs) -->
