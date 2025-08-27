@@ -64,6 +64,8 @@ onBeforeUnmount(() => {
 <template>
   <div class="min-h-screen bg-white">
     <div class="max-w-6xl mx-auto px-4 py-6">
+      <h1 class="text-4xl font-extrabold mb-8">Sample SPA Design</h1>
+
       <div class="border border-gray-300 rounded-md overflow-hidden">
         <div class="flex">
           <!-- Left nav (vertical tabs) -->
@@ -73,14 +75,14 @@ onBeforeUnmount(() => {
               :class="{ 'bg-gray-100 font-semibold': activeTab === 'A' }"
               @click="setTab('A')"
             >
-              Foods
+              TAB A
             </button>
             <button
               class="block w-full text-left p-4 border-b border-gray-300 hover:bg-gray-50"
               :class="{ 'bg-gray-100 font-semibold': activeTab === 'B' }"
               @click="setTab('B')"
             >
-              Cars
+              TAB B
             </button>
             <button
               class="block w-full text-left p-4 hover:bg-gray-50"
